@@ -79,7 +79,7 @@ const RecentProjects = () => {
                 </div>
 
                 <div className='flex justify-center items-center'>
-                  <a href='https://game-hunt-ten.vercel.app/'>
+                  <a href={item.link}>
                     <p className='flex lg:text-xl md:text-xs text-sm text-purple'>
                       Check Live Site
                     </p>
